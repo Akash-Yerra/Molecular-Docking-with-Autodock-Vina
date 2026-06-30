@@ -81,7 +81,7 @@ This repository presents molecular docking studies on six experimentally resolve
 | **6XQS** | SARS-CoV-2 Main Protease (Mpro / 3CLpro) | COVID-19 | Telaprevir | Active Site Docking, Blind Docking |
 | **8CYZ** | SARS-CoV-2 Main Protease (Mpro / 3CLpro) | COVID-19 | Compound C4 | Active Site Docking, Blind Docking |
 
-**Note:** The native (co-crystallized) ligands available in the PDB structures were used for docking studies of **1HSG**, **1HVR**, **1IEP**, and **1OCE** to reproduce and analyze experimentally observed binding interactions. For the SARS-CoV-2 Main Protease structures (**6XQS** and **8CYZ**), **Carmofur** was used as the docking ligand because it is a well-known inhibitor of the viral main protease and has been widely investigated in COVID-19 antiviral drug discovery.
+*Note:* The native (co-crystallized) ligands available in the PDB structures were used for docking studies of **1HSG**, **1HVR**, **1IEP**, and **1OCE** to reproduce and analyze experimentally observed binding interactions. For the SARS-CoV-2 Main Protease structures (**6XQS** and **8CYZ**), **Carmofur** was used as the docking ligand because it is a well-known inhibitor of the viral main protease and has been widely investigated in COVID-19 antiviral drug discovery.
 ---
 
 ## 📖 Protein Descriptions
