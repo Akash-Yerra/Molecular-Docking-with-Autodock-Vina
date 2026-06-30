@@ -68,14 +68,18 @@ Each protein folder represents a complete docking experiment.
 
 # Protein Targets Included
 
-| Protein ID | Description |
-|------------|-------------|
-| 1HSG | Protein docking example |
-| 1HVR | Protein docking example |
-| 1IEP | Protein docking example |
-| 1OCE | Protein docking example |
-| 6XQS | Protein docking example |
-| 8CYZ | Protein docking example |
+## 🧬 Protein Targets Included
+
+The repository contains molecular docking studies on multiple therapeutically important protein targets. Each protein was selected because of its significance in drug discovery and structure-based virtual screening.
+
+| **Protein ID** | **Protein Name** | **Associated Disease / Biological Role** | **Why it is an Important Drug Target** |
+|:--------------:|------------------|------------------------------------------|-----------------------------------------|
+| **1HSG** | HIV-1 Protease | HIV/AIDS | Essential for the maturation of HIV viral particles. Inhibiting this enzyme prevents the virus from producing infectious particles, making it a major target for anti-HIV drugs. |
+| **1HVR** | HIV-1 Protease | HIV/AIDS | Another experimentally resolved HIV-1 protease structure used extensively for studying protein–ligand interactions and designing potent HIV protease inhibitors. |
+| **1IEP** | c-Abl Tyrosine Kinase | Chronic Myeloid Leukemia (CML) | Regulates cell growth and division. Mutations lead to uncontrolled cell proliferation. This structure is famous for containing **Imatinib (Gleevec)**, a breakthrough targeted cancer therapy. |
+| **1OCE** | Cyclooxygenase (COX) Enzyme | Inflammation, Pain, and Fever | Catalyzes prostaglandin synthesis responsible for inflammation and pain. It is the primary target of many Non-Steroidal Anti-Inflammatory Drugs (NSAIDs). |
+| **6XQS** | SARS-CoV-2 Main Protease (Mpro / 3CLpro) | COVID-19 | A key viral enzyme required for coronavirus replication. Since humans do not possess this protease, it is an attractive and highly selective antiviral drug target. |
+| **8CYZ** | Disease-related Therapeutic Protein Target | Structure-Based Drug Discovery | A recently resolved protein structure suitable for molecular docking, virtual screening, and studying protein–ligand interactions in modern drug discovery workflows. |
 
 Each protein contains:
 
@@ -90,10 +94,11 @@ allowing comparison between both approaches.
 
 - AutoDock Vina
 - AutoDock Tools (ADT)
-- Open Babel
+- PyRx(for blind docking)
+- Open Babel(with in the PyRx)
 - PyMOL (for visualization)
 - Protein Data Bank (PDB)
-- PubChem
+- PubChem (DataBase)
 
 ---
 
@@ -287,42 +292,6 @@ This file contains
 - Alternative poses
 - Binding affinity
 - Atomic coordinates
-
----
-
-# How to Run
-
-## Step 1
-
-Prepare receptor
-
-```
-prepare_receptor4.py
-```
-
----
-
-## Step 2
-
-Prepare ligand
-
-```
-prepare_ligand4.py
-```
-
----
-
-## Step 3
-
-Run AutoDock Vina
-
-```
-vina --receptor protein.pdbqt \
-     --ligand ligand.pdbqt \
-     --config conf.txt \
-     --out output.pdbqt
-```
-
 ---
 
 # Understanding the Results
@@ -390,6 +359,7 @@ After exploring this repository, readers will understand
 1. AutoDock Vina Documentation
 
 https://autodock-vina.readthedocs.io/
+https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/
 
 2. Protein Data Bank
 
@@ -403,19 +373,19 @@ https://pubchem.ncbi.nlm.nih.gov/
 
 # Repository Highlights
 
-✔ Multiple proteins
+1. Multiple proteins
 
-✔ Active Site Docking
+2. Active Site Docking
 
-✔ Blind Docking
+3. Blind Docking
 
-✔ Complete docking workflow
+4. Complete docking workflow
 
-✔ Ready-to-use AutoDock Vina files
+5. Ready-to-use AutoDock Vina files
 
-✔ Beginner-friendly organization
+6. Beginner-friendly organization
 
-✔ Suitable for students, researchers, and bioinformatics learners
+7. Suitable for students, researchers, and bioinformatics learners
 
 ---
 
@@ -431,5 +401,3 @@ Research Interest:
 - Molecular Docking
 - Quantum Machine Learning
 
-GitHub:
-https://github.com/Akash-Yerra
