@@ -1,0 +1,27 @@
+receptor= 1OCE_clean.pdbqt
+ligand= ligand.pdbqt
+
+ 
+
+center_x= 2.289 
+
+center_y= 62.7745
+
+center_z= 67.007
+
+ 
+
+size_x= 66
+
+size_y= 66
+
+size_z= 64
+
+ 
+
+out= vina_outputMF2.pdbqt
+
+
+ 
+
+exhaustiveness= 8

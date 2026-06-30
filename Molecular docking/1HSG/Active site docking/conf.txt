@@ -1,0 +1,27 @@
+receptor= 1HSG_clean.pdbqt
+ligand= ligand.pdbqt
+
+ 
+
+center_x= 11.634
+
+center_y= 22.47
+
+center_z= 5.8585
+
+ 
+
+size_x= 66
+
+size_y= 66
+
+size_z= 64
+
+ 
+
+out= vina_outMK2.pdbqt
+
+
+ 
+
+exhaustiveness= 8

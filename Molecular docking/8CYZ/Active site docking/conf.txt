@@ -1,0 +1,27 @@
+receptor= 8CYZ_cleane.pdbqt
+ligand= UNK_ligand.pdbqt
+
+ 
+
+center_x= 14.603 
+
+center_y= 12.623 
+
+center_z= -54.518
+
+ 
+
+size_x= 66
+
+size_y= 66
+
+size_z= 64
+
+ 
+
+out= vina_out.pdbqt
+
+
+ 
+
+exhaustiveness= 8
