@@ -66,20 +66,56 @@ Each protein folder represents a complete docking experiment.
 
 ---
 
-# Protein Targets Included
-
 ## 🧬 Protein Targets Included
 
-The repository contains molecular docking studies on multiple therapeutically important protein targets. Each protein was selected because of its significance in drug discovery and structure-based virtual screening.
+This repository presents molecular docking studies on six experimentally resolved protein structures obtained from the **RCSB Protein Data Bank (PDB)**. These proteins were selected because they represent important therapeutic targets in antiviral, anticancer, and anti-inflammatory drug discovery. For each protein, both **Active Site Docking** and **Blind Docking** experiments were performed using **AutoDock Vina**.
 
-| **Protein ID** | **Protein Name** | **Associated Disease / Biological Role** | **Why it is an Important Drug Target** |
-|:--------------:|------------------|------------------------------------------|-----------------------------------------|
-| **1HSG** | HIV-1 Protease | HIV/AIDS | Essential for the maturation of HIV viral particles. Inhibiting this enzyme prevents the virus from producing infectious particles, making it a major target for anti-HIV drugs. |
-| **1HVR** | HIV-1 Protease | HIV/AIDS | Another experimentally resolved HIV-1 protease structure used extensively for studying protein–ligand interactions and designing potent HIV protease inhibitors. |
-| **1IEP** | c-Abl Tyrosine Kinase | Chronic Myeloid Leukemia (CML) | Regulates cell growth and division. Mutations lead to uncontrolled cell proliferation. This structure is famous for containing **Imatinib (Gleevec)**, a breakthrough targeted cancer therapy. |
-| **1OCE** | Cyclooxygenase (COX) Enzyme | Inflammation, Pain, and Fever | Catalyzes prostaglandin synthesis responsible for inflammation and pain. It is the primary target of many Non-Steroidal Anti-Inflammatory Drugs (NSAIDs). |
-| **6XQS** | SARS-CoV-2 Main Protease (Mpro / 3CLpro) | COVID-19 | A key viral enzyme required for coronavirus replication. Since humans do not possess this protease, it is an attractive and highly selective antiviral drug target. |
-| **8CYZ** | Disease-related Therapeutic Protein Target | Structure-Based Drug Discovery | A recently resolved protein structure suitable for molecular docking, virtual screening, and studying protein–ligand interactions in modern drug discovery workflows. |
+### 📌 Protein Summary
+
+| **PDB ID** | **Protein** | **Disease Area** | **Co-crystallized Ligand** | **Repository Contents** |
+|:---------:|-------------|------------------|----------------------------|-------------------------|
+| **1HSG** | HIV-1 Protease | HIV/AIDS | Protease Inhibitor | Active Site Docking, Blind Docking |
+| **1HVR** | HIV-1 Protease | HIV/AIDS | Cyclic Urea Inhibitor | Active Site Docking, Blind Docking |
+| **1IEP** | c-Abl Tyrosine Kinase | Chronic Myeloid Leukemia (CML) | Imatinib (Gleevec) | Active Site Docking, Blind Docking |
+| **1OCE** | Cyclooxygenase (COX) Enzyme | Inflammation & Pain | Anti-inflammatory Ligand | Active Site Docking, Blind Docking |
+| **6XQS** | SARS-CoV-2 Main Protease (Mpro / 3CLpro) | COVID-19 | Telaprevir | Active Site Docking, Blind Docking |
+| **8CYZ** | SARS-CoV-2 Main Protease (Mpro / 3CLpro) | COVID-19 | Compound C4 | Active Site Docking, Blind Docking |
+
+---
+
+## 📖 Protein Descriptions
+
+### 🦠 HIV Drug Discovery
+
+#### **1HSG – HIV-1 Protease**
+HIV-1 Protease is an essential viral enzyme responsible for cleaving viral polyproteins into functional proteins required for viral maturation. Inhibiting this enzyme prevents the production of infectious HIV particles, making it one of the primary targets for anti-HIV drug development.
+
+#### **1HVR – HIV-1 Protease**
+This structure also represents HIV-1 Protease but is crystallized with a different inhibitor. It is widely used in molecular docking studies for evaluating protease inhibitors and understanding protein–ligand interactions involved in HIV therapy.
+
+---
+
+### 🎗️ Cancer Drug Discovery
+
+#### **1IEP – c-Abl Tyrosine Kinase**
+The c-Abl Tyrosine Kinase regulates cell growth, differentiation, and survival. Abnormal activation of this kinase is associated with Chronic Myeloid Leukemia (CML). This structure contains the well-known anticancer drug **Imatinib (Gleevec)** and is considered a landmark example of structure-based drug design.
+
+---
+
+### 💊 Anti-inflammatory Drug Discovery
+
+#### **1OCE – Cyclooxygenase (COX)**
+Cyclooxygenase (COX) is a key enzyme involved in prostaglandin biosynthesis, which mediates inflammation, pain, and fever. It is one of the most important therapeutic targets for Non-Steroidal Anti-Inflammatory Drugs (NSAIDs), making it a common protein for molecular docking and virtual screening studies.
+
+---
+
+### 🦠 COVID-19 Antiviral Drug Discovery
+
+#### **6XQS – SARS-CoV-2 Main Protease (Mpro / 3CLpro)**
+This structure represents the SARS-CoV-2 Main Protease in complex with **Telaprevir**, an antiviral drug originally developed against Hepatitis C Virus (HCV). Since the Main Protease is essential for viral replication and absent in humans, it is considered one of the most promising therapeutic targets for COVID-19 drug discovery.
+
+#### **8CYZ – SARS-CoV-2 Main Protease (Mpro / 3CLpro)**
+This structure contains the SARS-CoV-2 Main Protease bound to **Compound C4**, an experimental inhibitor. It provides valuable structural information for understanding inhibitor binding mechanisms and supports the rational design of next-generation antiviral compounds against COVID-19.
 
 Each protein contains:
 
