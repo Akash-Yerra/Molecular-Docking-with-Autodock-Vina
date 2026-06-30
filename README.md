@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-research-orange)
 # Molecular Docking using AutoDock Vina
 
 > A complete hands-on molecular docking project demonstrating both **Active Site Docking** and **Blind Docking** using **AutoDock Vina** on multiple protein targets.
