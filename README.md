@@ -394,8 +394,8 @@ After exploring this repository, readers will understand
 
 1. AutoDock Vina Documentation
 
-https://autodock-vina.readthedocs.io/
-https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/
+ - https://autodock-vina.readthedocs.io/
+ - https://bioinformaticsreview.com/20161214/how-to-perform-docking-in-a-specific-binding-site-using-autodock-vina/
 
 2. Protein Data Bank
 
@@ -436,4 +436,5 @@ Research Interest:
 - Drug Discovery
 - Molecular Docking
 - Quantum Machine Learning
+- Post Quantum Cryptography
 
